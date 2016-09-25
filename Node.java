@@ -1,5 +1,6 @@
 /**
- * @author carlos
+ * @author Rodolfo Cacacho, Freddy España, Carlos Solórzano
+ * @since 25 - 09 - 2016
  * http://pages.cs.wisc.edu/~deppeler/cs367-common/readings/Binary-Search-Trees/index.html#imp
  */
 public class Node<E, K> {
