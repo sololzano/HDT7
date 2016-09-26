@@ -1,5 +1,5 @@
 /**
- * @author Rodolfo Cacacho, Freddy España, Carlos Solórzano
+ * @author Rodolfo Cacacho, Fredy Espana, Carlos Solorzano
  * @since 25 - 09 - 2016
  * http://pages.cs.wisc.edu/~deppeler/cs367-common/readings/Binary-Search-Trees/index.html#imp
  */

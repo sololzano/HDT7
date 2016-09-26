@@ -1,5 +1,5 @@
 /**
- * @author Rodolfo Cacacho, Freddy España, Carlos Solórzano
+ * @author Rodolfo Cacacho, Fredy Espana, Carlos Solorzano
  * @since 25 - 09 -2016
  *
  */
@@ -8,7 +8,7 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	private Node<E, V> root;
 	
 	/**
-	 * Constructor vacío 
+	 * Constructor vacio 
 	 */
 	public BinarySearchTree() {
 		root = null;
@@ -25,7 +25,7 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	
 	/**
 	 * 
-	 * @param n El árbol o subárbol en el que se realizará la búsqueda
+	 * @param n El arbol o subarbol en el que se realizara la busqueda
 	 * @param key La clave a buscar
 	 * @return El valor de la clave buscada
 	 */
@@ -56,7 +56,7 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	 * @param n El nodo a inspeccionar para añadir clave
 	 * @param key La clave a agregar
 	 * @param value El valor de la nueva clave
-	 * @return El nuevo subárbol formado
+	 * @return El nuevo subarbol formado
 	 * @throws Exception Se produce al encontrar claves iguales
 	 */
 	private Node<E, V> insert(Node<E, V> n, E key, V value) throws Exception {
@@ -82,8 +82,8 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	}
 	
 	/**
-	 * Método recursivo
-	 * @param node El nodo en el que se realizará la búsqueda
+	 * Metodo recursivo
+	 * @param node El nodo en el que se realizara la busqueda
 	 */
 	private void inOrder(Node<E, V> node) {
 		if (node == null) {
