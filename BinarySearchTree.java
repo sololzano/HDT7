@@ -6,7 +6,6 @@
 public class BinarySearchTree<E extends Comparable<E>, V> {
 
 	private Node<E, V> root;
-	
 	/**
 	 * Constructor vacio 
 	 */
@@ -23,8 +22,7 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 		return lookup(root, key);
 	}
 	
-	/**
-	 * 
+	/** 
 	 * @param n El arbol o subarbol en el que se realizara la busqueda
 	 * @param key La clave a buscar
 	 * @return El valor de la clave buscada
@@ -42,7 +40,6 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	}
 	
 	/**
-	 * 
 	 * @param key La nueva clave
 	 * @param value El valor de la nueva clave
 	 * @throws Exception Se produce al encontrar claves iguales
@@ -52,7 +49,6 @@ public class BinarySearchTree<E extends Comparable<E>, V> {
 	}
 	
 	/**
-	 * 
 	 * @param n El nodo a inspeccionar para añadir clave
 	 * @param key La clave a agregar
 	 * @param value El valor de la nueva clave
